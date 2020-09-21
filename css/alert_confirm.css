@@ -1,0 +1,38 @@
+html,body
+{
+  margin:0;
+  padding:0;
+  font-family: arial, sans-serif, cursive;
+}
+
+.alert_content_box
+{
+    padding:50px 0;
+    text-align: center;
+    background-color: rgb(221,221,221,0.3);
+}
+
+.alert_content_box .text
+{
+  font-size: 40px;
+}
+
+.shop-more
+{
+
+}
+
+.shop-more a
+{
+  text-decoration:none;
+  color:white;
+  background-color:#ffc700;
+  padding:20px 30px;
+  border-radius:10px;
+}
+
+.shop-more:hover a
+{
+  color:#ffc700;
+  background-color:white;
+}

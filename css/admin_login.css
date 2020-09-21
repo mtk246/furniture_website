@@ -1,0 +1,104 @@
+.div-form
+{
+  margin:auto;
+}
+
+form
+{
+  background-image: url(../image/log_in_background.jpg);
+  background-size: 100%;
+  border-radius: 30px;
+  border: 10px solid #fff;
+  margin:auto;
+  width:700px;
+  height:400px;
+}
+
+.table_form
+{
+  margin:auto;
+  padding:30px 0;
+}
+
+.button
+{
+  text-align: center;
+}
+
+.button input[type=submit]
+{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid green;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+.button input[type=submit]:hover
+{
+  background-color: #5452c9;;
+  color:white;
+}
+
+.table_form td
+{
+  line-height: 50px;
+}
+
+.table_form input.input_text
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+  padding-left: 10px;
+}
+
+.table_form td input:focus, textarea:focus
+{
+  border: 2px solid green;
+  border-radius: 5px;
+  outline: none;
+}
+
+.table_form .button
+{
+  position: absolute;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.table_form .button td
+{
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+
+.table_form .button input[type=submit]
+{
+  text-align:center;
+  outline: none;
+  padding: 10px;
+}
+
+.table_form .button input[type=submit]:focus
+{
+  border: 2px solid green;
+  background-color: #fcde7e;
+}
+
+.table_form .alert_box .alert_text
+{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-left: -120px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: green;
+}

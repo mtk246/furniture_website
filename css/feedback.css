@@ -1,0 +1,132 @@
+h1,.send_button_wrapper,.announcement
+{
+  text-align: center;
+}
+
+.announcement
+{
+  width: 100%;
+  background-color: rgb(221,221,221,0.3);
+  border-radius: 10px;
+  padding:30px 0;
+  margin-bottom: 30px;
+}
+
+.announcement span
+{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 80px 0 30px 0;
+  color: #ffc700;
+  font-weight: bold;
+}
+
+form
+{
+  background-color: #eee;
+  margin:auto;
+  width:1000px;
+  border-radius: 20px;
+}
+
+form h1
+{
+  color: #5452c9;
+  font-weight: bold;
+  font-size:40px;
+  margin-bottom:3px;
+  padding-top:30px;
+}
+
+form .notification
+{
+  text-align: center;
+  padding:15px 0;
+}
+
+form .error,form .success
+{
+  font-size: 25px;
+}
+
+form .error
+{
+  color:red;
+}
+
+form .success
+{
+  color: green;
+}
+
+form table
+{
+  margin:auto;
+}
+
+form tr
+{
+  line-height: 50px;
+}
+
+form td
+{
+  font-size: 20px;
+  padding-right:20px;
+}
+
+form input[type=text],form textarea
+{
+    padding:10px;
+    font-size: 18px;
+    border:0.3px solid;
+    -webkit-box-shadow: 5px 5px 10px rgba(89,86,86,0.5);
+    box-shadow: 5px 5px 10px rgba(89,86,86,0.5);
+}
+
+form input[type=text]
+{
+    width:700px;
+}
+
+form p
+{
+  font-size: 18px;
+  text-align: center;
+  color: #5452c9;
+  margin:0;
+}
+
+form .subject,form p
+{
+  font-weight:bold;
+}
+
+form textarea
+{
+  font-weight:500;
+  width:700px;
+  height:500px;
+}
+
+form input[type=submit]
+{
+  color: white;
+  background-color: #ffc700;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border:none;
+  font-size:20px;
+}
+
+form input[type=submit]:hover
+{
+  color: #5452c9;
+  background-color: white;
+}
+
+form .send_button_wrapper
+{
+  padding:30px 0;
+}

@@ -1,0 +1,72 @@
+html,body
+{
+  margin:0;
+  padding:0;
+  font-family: arial,sans-serif,cursive;
+}
+
+.table
+{
+  background-color:#eee;
+  padding:20px 0;
+}
+
+table
+{
+  margin:auto;
+  line-height: 70px;
+  font-size: 25px;
+}
+
+td
+{
+  padding-right: 50px;
+}
+
+input[type=text]
+{
+  height:50px;
+  font-size: 20px;
+  border:none;
+  outline:none;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+select
+{
+  height: 50px;
+  width: 260px;
+  border-radius: 20px;
+  outline:none;
+  font-size: 20px;
+  text-indent: 5%;
+}
+
+option
+{
+
+}
+
+.submit_btn_wrapper
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
+input[type=submit]
+{
+  padding:20px 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline:none;
+  border:none;
+  background-color: #ffc700;
+  color: white;
+}
+
+input[type=submit]:hover
+{
+  background-color: white;
+  color: #ffc700;
+}

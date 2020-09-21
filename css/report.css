@@ -1,0 +1,101 @@
+html,body
+{
+  margin:0;
+  padding:0;
+  font-family: arial,sans-serif,cursive;
+}
+
+.error_msg
+{
+  text-align: center;
+  font-size: 25px;
+  color:red;
+  padding-bottom:30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.report_form
+{
+  margin:auto;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.report_form td
+{
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.report_form select,.report_form input[type=date]
+{
+  font-size: 20px;
+}
+
+.txt_search,.btn_submit
+{
+  text-align:center;
+}
+
+.txt_search
+{
+  padding-top:30px;
+}
+
+input[type=text]
+{
+  font-size: 20px;
+}
+
+.txt_search input[type=text]
+{
+  padding:20px;
+  border-radius:20px;
+  outline:none;
+  border:1px solid #000;
+
+}
+
+.txt_search input[type=text]:focus
+{
+  border:1px solid #5452c9;
+}
+
+.btn_submit
+{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.btn_submit input[type=submit]
+{
+  color: white;
+  width: auto;
+  background-color: rgb(255,209,49,0.8);
+  border-radius: 10px;
+  border:none;
+  font-size: 25px;
+  padding: 20px;
+  outline: none;
+}
+
+.btn_submit input[type=submit]:hover
+{
+  background-color: white;
+  color: #ffc700;
+}
+
+.table_list
+{
+  margin:auto;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 20px;
+}
+
+.table_list th,.table_list td
+{
+  padding:20px;
+}

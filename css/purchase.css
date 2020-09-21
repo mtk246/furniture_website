@@ -1,0 +1,81 @@
+html,body
+{
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif, cursive;
+  outline: none;
+}
+
+input
+{
+  padding-left: 10px;
+}
+
+.content-wrapper-purchase
+{
+  padding: 0 30px;
+}
+
+.table1
+{
+  float: left;
+  padding-right: 30px;
+}
+
+.table2
+{
+
+}
+
+.table2 .select
+{
+  float: left;
+  padding:0 100px;
+}
+
+.table-content-1
+{
+  padding-left:100px;
+  line-height: 50px;
+}
+
+.table-content-2
+{
+  float: left;
+  padding-right:100px;
+  padding-left:50px;
+}
+
+.table-content-2 tr
+{
+
+}
+
+.table-content-2 td
+{
+  padding-bottom: 20px;
+}
+
+.table-content input
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid;
+  padding-left: 10px;
+}
+
+.table-content-1 input[type=submit],.table-content-1 input[type=reset]
+{
+  width: 100px;
+}
+
+.furniture-information
+{
+  padding-left: 200px;
+}
+
+.php-form
+{
+  padding-left:200px;
+}

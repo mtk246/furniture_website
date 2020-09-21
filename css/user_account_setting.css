@@ -1,0 +1,25 @@
+html,body
+{
+  margin:0;
+  padding:0;
+
+}
+
+input[type=submit]
+{
+  text-decoration: none;
+  color: white;
+  width: auto;
+  background-color: rgb(255,209,49,0.8);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+input[type=submit]:hover
+{
+  background-color: #eee;
+  color: #5452C9;
+}
